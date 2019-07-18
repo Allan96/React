@@ -29,4 +29,4 @@ const Footer = () => (
       </Fragment>
         );
 
-        export default Footer;
+export default Footer;
