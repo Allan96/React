@@ -1,15 +1,12 @@
 'use strict'
 import React, { Component } from 'react'
-import Title from './title'
-import Square from './Square'
+import Button from './button'
 
 class App  extends Component{
     render(){
         return (
-            <div onClick={ (e) =>{
-                alert('clicou')
-            }}>
-                  <Square/>  
+            <div>
+                  <Button>Texto </Button>
             </div>
         )
     }
