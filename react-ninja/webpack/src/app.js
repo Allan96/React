@@ -2,14 +2,19 @@
 import React from 'react'
 import Title from './title'
 
-const App = React.createClass({
-    render: function() {
+class App  extends React.Component{
+    render(){
         return (
             <div>
                 <Title  name="Fernandinho"/>
             </div>
         )
     }
-})
+}
+
+App.defaultProps ={
+
+}
+
 
 export default App
