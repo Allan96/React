@@ -1,9 +1,14 @@
 'use strict'
-var React = require('react')
+import React from 'react'
+import Title from './title'
 
 const App = React.createClass({
     render: function() {
-        return <div>APP 1</div>
+        return (
+            <div>
+                <Title  name="Fernandinho"/>
+            </div>
+        )
     }
 })
 

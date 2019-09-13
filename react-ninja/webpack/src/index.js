@@ -9,7 +9,7 @@ const renderApp = (NextApp) =>{
    render(
   <AppContainer>
     <NextApp /> 
-  </AppContainer>,
+  </ AppContainer>,
     document.querySelector('[data-js="app"]')
 ) 
 }
