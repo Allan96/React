@@ -1,8 +1,8 @@
 'use strict'
-import React from 'react'
+import React, { Component } from 'react'
 import Title from './title'
 
-class App  extends React.Component{
+class App  extends Component{
     render(){
         return (
             <div>
